@@ -20,5 +20,20 @@
             "last_updated": "",
             "type": ""
         }
+    },
+    "demo": {
+        "projectName": "demo",
+        "description": "dsadsadsd",
+        "type": "community",
+        "author": "rizarsyi",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/rizarsyi/agama-project",
+        "githubUri": "https://github.com/rizarsyi/agama-project",
+        "license": "MIT",
+        "lastUpdated": "1687579221725",
+        "tags": [
+            "test",
+            "asdsad"
+        ]
     }
 }
