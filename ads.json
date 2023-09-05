@@ -36,7 +36,8 @@
             "asdsad"
         ],
         "configs": {
-            "co.gluu.openid": {}
+            "co.gluu.openid": {},
+            "co.beta.login": {}
         },
         "noDirectLaunch": []
     }
