@@ -136,7 +136,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{\"data\":{userId: authResult.uid}}",
+					"returnVariable": "{ success: false, data: {userId: authResult.uid} }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -983,8 +983,8 @@
 		}
 	],
 	"viewport": {
-		"x": 58.453450306212744,
-		"y": -214.61862501386483,
+		"x": -1.5465496937874832,
+		"y": -244.61862501386486,
 		"zoom": 0.8538177143912444
 	}
 }
