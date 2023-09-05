@@ -11,14 +11,14 @@ Repeat 3 times max
      // Loads the login page for username and password input
      creds = RRF "login.ftlh" authResult
      // Validate username and password
-     authResult.success = Call cdiUtil#authenticate creds.username creds.password
+     authResult.success = Call cdiUtil authenticate creds.username creds.password
      // Keep the username in case user needs to retry authentication
      authResult.uid = creds.username
      // Check if the authentication was successful
      When authResult.success is true
           // Return username in case of successful authentication
-          it_xchui = { success: true, data: {userId: authResult.uid} }
-          Finish it_xchui
+          it_parix = { success: true, data: {userId: authResult.uid} }
+          Finish it_parix
 // Max number of failed authentication attempts reached. Return false to end flow
-it_roqln = { success: false, error: "Your error message here" }
-Finish it_roqln
+it_ofpuo = { success: false, error: "Your error message here" }
+Finish it_ofpuo
