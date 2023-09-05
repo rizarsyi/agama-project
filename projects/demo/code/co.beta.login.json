@@ -328,7 +328,7 @@
 							"assignedVariableName": ""
 						}
 					],
-					"callType": "Call static method",
+					"callType": "Call method on instance",
 					"arguments": "creds.username creds.password",
 					"logMessage": "",
 					"templatePath": "",
@@ -340,7 +340,7 @@
 					"returnVariable": "",
 					"javaClassName": "cdiUtil",
 					"javaMethodName": "authenticate",
-					"javaVariableName": "",
+					"javaVariableName": "cdiUtil",
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
@@ -354,7 +354,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 220.82574009907842,
@@ -657,7 +657,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
@@ -983,8 +983,8 @@
 		}
 	],
 	"viewport": {
-		"x": 47,
-		"y": 16,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
