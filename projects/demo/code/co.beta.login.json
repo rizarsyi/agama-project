@@ -136,7 +136,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: false, data: {userId: authResult.uid} }",
+					"returnVariable": "{ success: true, data: {userId: authResult.uid} }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -150,9 +150,9 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
-				"skake": true
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 733.8257400990784,
@@ -248,7 +248,7 @@
 					"flowfilename": "",
 					"assignments": [
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "creds.username",
 							"assignedVariableName": "authResult.uid"
 						}
@@ -278,7 +278,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 420.8257400990784,
@@ -983,8 +983,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1.5465496937874832,
-		"y": -244.61862501386486,
-		"zoom": 0.8538177143912444
+		"x": -158,
+		"y": -258,
+		"zoom": 1
 	}
 }
