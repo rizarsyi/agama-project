@@ -1,4 +1,3 @@
-// 
 Flow co.beta.login
      Basepath ""
 // Create new authentication service instance
@@ -14,11 +13,12 @@ Repeat 3 times max
      // Validate username and password
      authResult.success = Call cdiUtil#authenticate creds.username creds.password
      // Keep the username in case user needs to retry authentication
-     authResult.uid = "creds.username"
+     authResult.uid = creds.username
      // Check if the authentication was successful
      When authResult.success is true
           // Return username in case of successful authentication
-          Finish { success: false, data: {userId: authResult.uid} }
+          it_ycvsc = { success: true, data: {userId: authResult.uid} }
+          Finish it_ycvsc
 // Max number of failed authentication attempts reached. Return false to end flow
-it_vkdus = { success: false, error: "Your error message here" }
-Finish it_vkdus
+it_ndgiq = { success: false, error: "Your error message here" }
+Finish it_ndgiq
