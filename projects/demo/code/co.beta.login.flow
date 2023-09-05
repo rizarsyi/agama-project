@@ -3,7 +3,7 @@ Flow co.beta.login
 // Create new authentication service instance
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 // Create new CdiUtil object
-cdiUtil = Call io.jans.service.cdi.utilCdiUtil#bean authService
+cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 // Empty result object
 authResult = {}
 // Retry 3 times to get correct username and password
@@ -17,8 +17,8 @@ Repeat 3 times max
      // Check if the authentication was successful
      When authResult.success is true
           // Return username in case of successful authentication
-          it_ycvsc = { success: true, data: {userId: authResult.uid} }
-          Finish it_ycvsc
+          it_xchui = { success: true, data: {userId: authResult.uid} }
+          Finish it_xchui
 // Max number of failed authentication attempts reached. Return false to end flow
-it_ndgiq = { success: false, error: "Your error message here" }
-Finish it_ndgiq
+it_roqln = { success: false, error: "Your error message here" }
+Finish it_roqln
