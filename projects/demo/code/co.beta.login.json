@@ -278,7 +278,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 420.8257400990784,
@@ -641,7 +641,7 @@
 					"conditionInputField": "",
 					"valueField": "",
 					"returnVariable": "",
-					"javaClassName": "io.jans.service.cdi.utilCdiUtil",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
 					"javaMethodName": "bean",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
@@ -657,7 +657,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
@@ -983,8 +983,8 @@
 		}
 	],
 	"viewport": {
-		"x": -158,
-		"y": -258,
+		"x": 47,
+		"y": 16,
 		"zoom": 1
 	}
 }
