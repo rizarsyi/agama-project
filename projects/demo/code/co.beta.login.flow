@@ -17,8 +17,8 @@ Repeat 3 times max
      authResult.uid = "creds.username"
      // Check if the authentication was successful
      When authResult.success is true
-          // 
+          // Return username in case of successful authentication
           Finish {"data":{userId: authResult.uid}}
 // Max number of failed authentication attempts reached. Return false to end flow
-it_usqqk = { success: false, error: "Your error message here" }
-Finish it_usqqk
+it_zbrkg = { success: false, error: "Your error message here" }
+Finish it_zbrkg
