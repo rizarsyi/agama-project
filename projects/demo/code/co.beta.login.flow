@@ -18,7 +18,7 @@ Repeat 3 times max
      // Check if the authentication was successful
      When authResult.success is true
           // Return username in case of successful authentication
-          Finish {"data":{userId: authResult.uid}}
+          Finish { success: false, data: {userId: authResult.uid} }
 // Max number of failed authentication attempts reached. Return false to end flow
-it_zbrkg = { success: false, error: "Your error message here" }
-Finish it_zbrkg
+it_vkdus = { success: false, error: "Your error message here" }
+Finish it_vkdus
