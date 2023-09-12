@@ -1,1 +1,45 @@
+{
 {}
+    "health_1685726762": {
+        "projectName": "health_1685726762",
+        "description": "",
+        "type": "",
+        "author": "rizarsyi",
+        "version": "1.0.0",
+        "authorWebsite": "",
+        "githubUri": "",
+        "license": "",
+        "lastUpdated": "",
+        "tags": [],
+        "configs": {
+            "version": "1.0.0",
+            "author": "rizarsyi",
+            "author_website": "",
+            "github_uri": "",
+            "project_description": "health_patched",
+            "license": "",
+            "last_updated": "",
+            "type": ""
+        }
+    },
+    "demo": {
+        "projectName": "demo",
+        "description": "dsadsadsd",
+        "type": "community",
+        "author": "rizarsyi",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/rizarsyi/agama-project",
+        "githubUri": "https://github.com/rizarsyi/agama-project",
+        "license": "MIT",
+        "lastUpdated": "1687579221725",
+        "tags": [
+            "test",
+            "asdsad"
+        ],
+        "configs": {
+            "co.gluu.openid": {},
+            "co.beta.login": {}
+        },
+        "noDirectLaunch": []
+    }
+}
