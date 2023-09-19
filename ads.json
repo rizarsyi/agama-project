@@ -26,7 +26,7 @@
         "description": "Lorem ipsum dolor sit amet",
         "type": "community",
         "author": "rizarsyi",
-        "version": "0.0.1",
+        "version": "1.0.0",
         "authorWebsite": "https://github.com/rizarsyi/agama-project",
         "githubUri": "https://github.com/rizarsyi/agama-project",
         "license": "MIT",
@@ -36,8 +36,8 @@
             "asdsad"
         ],
         "configs": {
-            "co.gluu.openid": {},
-            "co.beta.login": {}
+            "rizarsyi.nifty.co.gluu.openid": {},
+            "rizarsyi.nifty.co.beta.login": {}
         },
         "noDirectLaunch": []
     }
