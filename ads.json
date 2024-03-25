@@ -1,1 +1,19 @@
-{}
+{
+    "health_1711389828": {
+        "projectName": "health_1711389828",
+        "description": "",
+        "type": "",
+        "author": "rizarsyi",
+        "version": "1.0.0",
+        "authorWebsite": "",
+        "githubUri": "",
+        "license": "",
+        "lastUpdated": "",
+        "tags": [
+            "jans",
+            "community"
+        ],
+        "noDirectLaunch": null,
+        "configs": {}
+    }
+}
